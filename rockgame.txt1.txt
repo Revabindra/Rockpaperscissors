@@ -3,7 +3,7 @@ Cchoice=["Rock","Paper","Scissor"]
 while True:
     print("Rock Paper Scissor game:")
     userscore,computerscore=0,0
-    for i in range(1,6):
+    for i in range(1,6):                  
         print("Round",i,"Start:")
         print("Please select any option:")
         print("1.Rock","2.Paper","3.Scissors",sep="\n")
